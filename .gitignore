@@ -32,3 +32,13 @@ proguard/
 # Log Files
 *.log
 
+# other files
+.idea/
+ViewPagerProject.iml
+build.gradle
+gradle.properties
+gradle/
+gradlew
+gradlew.bat
+settings.gradle
+
