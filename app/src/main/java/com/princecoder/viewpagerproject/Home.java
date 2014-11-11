@@ -22,6 +22,9 @@ public class Home extends FragmentActivity {
 
 }
 
+/*
+ Custom adapter for pages
+ */
 class MyAdapter extends FragmentStatePagerAdapter
 {
 
