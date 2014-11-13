@@ -8,6 +8,9 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 
 
+/**
+ * @author prinzlyngotoum
+ */
 public class Home extends FragmentActivity {
 
     ViewPager viewPager=null;
@@ -35,7 +38,6 @@ class MyAdapter extends FragmentStatePagerAdapter
     @Override
     public Fragment getItem(int i) {
         Fragment fragment=null;
-//        Log.d("VIVZ", "get Item is called "+i);
         if(i==0)
         {
             fragment=new FragmentA();
@@ -53,7 +55,6 @@ class MyAdapter extends FragmentStatePagerAdapter
 
     @Override
     public int getCount() {
-//        Log.d("VIVZ", "get Count is called");
         return 3;
     }
 
